@@ -1,0 +1,323 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.naoSelecionavel {
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+    /* cursor: default; */
+}
+
+
+
+/* ----- MENU ----- */
+/* ----- ---- ----- */
+
+.barra-esq {
+    background: rgb(50, 50, 50);
+    height: 100vh;
+    width: 200px;       
+}
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    width: 150px;
+}
+.linha-barra-esq1 {
+    background: rgb(70, 70, 70);
+    position: absolute;
+    top: 115px;
+    left: 10px;
+    height: 2px;
+    width: 180px;       
+}
+.dados {
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    width: 25px;
+}
+.texto-dados {
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 133px;
+    left: 60px;
+}
+.area-dados {
+    position: absolute;
+    top: 125px;
+    height: 35px;
+    width: 200px;       
+}
+.area-dados1 {
+    background: rgb(80, 80, 80);  ;
+    position: absolute;
+    top: 125px;
+    height: 35px;
+    width: 200px;       
+}
+.area-dados:hover {
+    color: #fff;
+    background-color: rgb(80, 80, 80);     
+}
+.notificacao {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    width: 25px;
+}
+.texto-notificacao {
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 173px;
+    left: 60px;
+}
+.area-notificacao {
+    position: absolute;
+    top: 165px;
+    height: 35px;
+    width: 200px;       
+}
+.area-notificacao1 {
+    background: rgb(80, 80, 80);  ;
+    position: absolute;
+    top: 165px;
+    height: 35px;
+    width: 200px;       
+}
+.area-notificacao:hover {
+    color: #fff;
+    background-color: rgb(80, 80, 80);     
+}
+.linha-barra-esq2 {
+    background: rgb(70, 70, 70);
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    height: 2px;
+    width: 180px;       
+}
+.correias {
+    position: absolute;
+    top: 225px;
+    left: 20px;
+    width: 25px;
+}
+.texto-correias {
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 228px;
+    left: 60px;
+}
+.area-correias {
+    position: absolute;
+    top: 220px;
+    height: 35px;
+    width: 200px;       
+}
+.area-correias1 {
+    background: rgb(80, 80, 80);  ;
+    position: absolute;
+    top: 220px;
+    height: 35px;
+    width: 200px;       
+}
+.area-correias:hover {
+    color: #fff;
+    background-color: rgb(80, 80, 80);     
+}
+.graficos {
+    position: absolute;
+    top: 265px;
+    left: 20px;
+    width: 25px;
+}
+.texto-graficos {
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 268px;
+    left: 60px;
+}
+.area-graficos {
+    position: absolute;
+    top: 260px;
+    height: 35px;
+    width: 200px;       
+}
+.area-graficos1 {
+    background: rgb(80, 80, 80);  ;
+    position: absolute;
+    top: 260px;
+    height: 35px;
+    width: 200px;       
+}
+.area-graficos:hover {
+    color: #fff;
+    background-color: rgb(80, 80, 80);     
+}
+.relatorios {
+    position: absolute;
+    top: 305px;
+    left: 20px;
+    width: 25px;
+}
+.texto-relatorios {
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 308px;
+    left: 60px;
+}
+.area-relatorios {
+    position: absolute;
+    top: 300px;
+    height: 35px;
+    width: 200px;       
+}
+.area-relatorios1 {
+    background: rgb(80, 80, 80);  ;
+    position: absolute;
+    top: 300px;
+    height: 35px;
+    width: 200px;       
+}
+.area-relatorios:hover {
+    color: #fff;
+    background-color: rgb(80, 80, 80);     
+}
+.config {
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 390px;
+    left: 20px;
+    font-size: 10px;
+}
+.usuarios {
+    position: absolute;
+    top: 415px;
+    left: 20px;
+    width: 25px;
+}
+.texto-usuarios {
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 418px;
+    left: 60px;
+}
+.area-usuarios {
+    position: absolute;
+    top: 410px;
+    height: 35px;
+    width: 200px;       
+}
+.area-usuarios1 {
+    background: rgb(80, 80, 80);  ;
+    position: absolute;
+    top: 410px;
+    height: 35px;
+    width: 200px;       
+}
+.area-usuarios:hover {
+    color: #fff;
+    background-color: rgb(80, 80, 80);     
+}
+.banco {
+    position: absolute;
+    top: 455px;
+    left: 20px;
+    width: 25px;
+}
+.texto-banco {
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 458px;
+    left: 60px;
+}
+.area-banco {
+    position: absolute;
+    top: 450px;
+    height: 35px;
+    width: 200px;       
+}
+.area-banco1 {
+    background: rgb(80, 80, 80);  ;
+    position: absolute;
+    top: 450px;
+    height: 35px;
+    width: 200px;       
+}
+.area-banco:hover {
+    color: #fff;
+    background-color: rgb(80, 80, 80);     
+}
+
+
+
+/* ----- Gráficos ----- */
+/* ----- -------- ----- */
+
+.linha-graficoC {
+    background: rgb(170, 170, 170);
+    position: absolute;
+    top: 2vh;
+    left: 700px;
+    height: 96vh;
+    width: 2px;       
+}
+.titulo-select1 {
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 335px;
+}
+.custom-select1 {
+    position: absolute;
+    top: 100px;
+    left: 375px;
+}
+.custom-input1 {
+    position: absolute;
+    top: 100px;
+    left: 485px;
+}
+.titulo-select2 {
+    font-size: 60px;
+    position: absolute;
+    top: 25px;
+    left: 825px;
+}
+.texto-select1 {
+    position: absolute;
+    top: 115px;
+    left: 800px;
+}
+.custom-select2 {
+    position: absolute;
+    top: 115px;
+    left: 850px;
+}
+.custom-input2 {
+    position: absolute;
+    top: 115px;
+    left: 890px;
+}
+.texto-select2 {
+    position: absolute;
+    top: 115px;
+    left: 1060px;
+}
+.custom-select3 {
+    position: absolute;
+    top: 115px;
+    left: 1110px;
+}
+.custom-input3 {
+    position: absolute;
+    top: 115px;
+    left: 1150px;
+}
